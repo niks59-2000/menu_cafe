@@ -1,0 +1,71 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    background-image:url('images/heart2.jpg');
+    /* background-image:url('pinkhearts.jpg'); */
+    background-attachment:fixed;
+    background-repeat:repeat;
+}
+main{
+    /* background-color:peachpuff; */
+    background-color:bisque;
+    width:40vw;
+    margin:0 auto;
+    padding:1em;
+}
+h1,h5,p{
+    text-align:center;
+}
+h1{
+    font-size:2.5em;
+    text-transform:uppercase;
+}
+hr{
+    border-bottom: 2px solid lightgrey;
+}
+h5{
+    font-size:1.5em;
+    text-transform: uppercase;
+    background-color:white;
+    color:#9E4244;
+    /* color:palevioletred; */
+}
+.found{
+    font-size:18px;
+    font-style:italic;
+    margin-top:-10px;
+}
+.list{
+    margin-left:80px;
+    margin-right:80px;
+}
+.list p{
+    display:inline-block;
+    font-size:18px;
+}
+.item{
+    width:75%;
+    text-align:left;
+}
+.price{
+    width:25%;
+    text-align:right;
+}
+.tea,.dessert{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.coffee{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    margin-right:auto;
+    margin-left:auto;
+}
