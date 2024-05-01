@@ -3,15 +3,13 @@
 }
 body{
     margin:0;
-    background-image:url('images/heart2.jpg');
-    /* background-image:url('pinkhearts.jpg'); */
+    background-image:url('images/bean.jpg');
     background-attachment:fixed;
-    background-repeat:repeat;
+    background-size:cover;
 }
 main{
-    /* background-color:peachpuff; */
-    background-color:bisque;
-    width:40vw;
+    background-color:burlywood;
+    width:50vw;
     margin:0 auto;
     padding:1em;
 }
@@ -19,31 +17,31 @@ h1,h5,p{
     text-align:center;
 }
 h1{
-    font-size:2.5em;
+    font-size:2.5rem;
     text-transform:uppercase;
 }
 hr{
     border-bottom: 2px solid lightgrey;
 }
 h5{
-    font-size:1.5em;
+    font-size:1.75rem;
     text-transform: uppercase;
     background-color:white;
-    color:#9E4244;
-    /* color:palevioletred; */
+    color:#5C4033;
 }
 .found{
-    font-size:18px;
+    font-size:1.5rem;
     font-style:italic;
     margin-top:-10px;
+    color:#5C4033;
 }
 .list{
-    margin-left:80px;
-    margin-right:80px;
+    margin-left:50px;
+    margin-right:50px;
 }
 .list p{
     display:inline-block;
-    font-size:18px;
+    font-size:1.4rem;
 }
 .item{
     width:75%;
@@ -53,7 +51,7 @@ h5{
     width:25%;
     text-align:right;
 }
-.tea,.dessert{
+.tea,.dessert,.coffee{
     display:block;
     width:100px;
     height:100px;
@@ -61,11 +59,26 @@ h5{
     margin-right:auto;
     margin-left:auto;
 }
-.coffee{
-    display:block;
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    margin-right:auto;
-    margin-left:auto;
+
+
+/* media queries */
+
+
+@media (min-width:501px){
+    main{
+        min-width:70vw;
+    }
+    .list{
+        margin-left:30px;
+        margin-right:30px;
+    }
+}
+
+@media (max-width:500px){
+    body{
+        background:none;
+    }
+    main{
+        width:100vw;
+    }
 }
