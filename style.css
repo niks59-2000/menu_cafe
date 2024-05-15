@@ -69,7 +69,6 @@ h5{
 
 footer{
     padding:20px;
-    text-align:center;
     color:#5C4033;
     font-size:1.5rem;
 }
@@ -85,7 +84,12 @@ footer{
         margin-left:30px;
         margin-right:30px;
     }
+    footer{
+        font-size:1.2rem;
+        white-space: nowrap;
+    }
 }
+
 
 @media (max-width:500px){
     body{
@@ -93,5 +97,9 @@ footer{
     }
     main{
         width:100vw;
+        margin:0 auto;
+    }
+    footer{
+        font-size:1.2rem;
     }
 }
